@@ -7,13 +7,13 @@
 #endif // !__BOOL
 
 #define ABS(x)\
-(((TWO*(x))+1)%TWO)*x
+(((TWO*(x))+1)%2)*x
 #define SIGN(x)\
-(((TWO*(x))+1)%TWO)
+(((TWO*(x))+1)%2)
 #define MAX(x,y)\
-(x+y+ABS((x-y)))/TWO
+(x+y+ABS((x-y)))/2
 #define MIN(x,y)\
-(x+y-ABS((x-y)))/TWO
+(x+y-ABS((x-y)))/2
 
 //retruns if the num even
 BOOL IsEven(int);
