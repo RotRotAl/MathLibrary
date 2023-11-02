@@ -7,9 +7,9 @@
 #endif // !__BOOL
 
 #define ABS(x)\
-(((TWO*(x))+1)%2)*x
+(((2*(x))+1)%2)*x
 #define SIGN(x)\
-(((TWO*(x))+1)%2)
+(((2*(x))+1)%2)
 #define MAX(x,y)\
 (x+y+ABS((x-y)))/2
 #define MIN(x,y)\
